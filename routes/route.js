@@ -30,5 +30,5 @@ exports.city=function(req,res)
 		title="Marathahalli";heading="Marathahalli:Come to Marathahalli to become someone new";
 		imageNo=6
 	} 
-	res.render('city',{title:title,headline:headline,city:cityName,numberOfImages:imageNo});
+	res.render('city',{title:title,headline:heading,city:cityName,numberOfImages:imageNo});
 }
