@@ -1,6 +1,6 @@
 exports.home=function(req,res)
 {
-	res.render('home',{
+	res.render('home',{title:'I Love My City !',
 					headline:'I belive that My city is lovely and wonderful city and always rejoy us'
 			 });
 }
