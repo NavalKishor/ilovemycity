@@ -4,13 +4,13 @@
   "description": "my city is a lovely city full of site",
   "main": "app.js",
   "scripts": {
-  "start": "node app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "naval_kishor_jha",
   "license": "ISC",
   "dependencies": {
-   "ejs": "^2.3.4",
-    "express": "^4.13.3"
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
   }
 }
